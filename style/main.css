@@ -1,0 +1,169 @@
+/* GENERALE */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+body p {
+    color: wheat;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+/* HEADER */ 
+header h1 {
+    text-align: center;
+    background-color:#ffb84d;
+    margin: 0px;
+    padding: 15px;
+}
+.nav {
+    text-align: center;
+    background-color:#ffb84d;
+    margin: 0px;
+    padding: 5px;
+}
+nav ul li :hover {
+    text-decoration: none;
+    background-color: #ffad33;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+header li {
+    border-bottom: 2px black solid;
+    margin: 0px 100px 25px 100px;
+    list-style-type: none;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+/* MAIN */ 
+.introduzione p {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px #ffb84d solid;
+    margin: 0px 70px 25px 70px;
+}
+#image {
+    width: 100%;
+    height: auto;
+    background-image: url("../image/sfondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#cornice {
+    width: 100%;
+    height: auto;
+    background-image: url("../image/cornice.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.chef {
+    display: flex;
+    margin: 50px 0px 50px 100px;
+    flex-direction: column;
+    width: 40%;
+    align-items: stretch;
+}
+.chef p {
+    padding-bottom: 8px;
+    border-bottom: 2px #ffb84d solid;
+}
+.food {
+    display: flex;
+    margin: 0% 0% 0% 50%;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+.food img {
+    width: 100%;
+}
+.food p {
+    padding-bottom: 8px;
+    border-bottom: 2px #ffb84d solid;
+}
+.staff {
+    display: flex;
+    margin: 65px 0px 0px 100px;
+    flex-direction: column;
+    width: 40%;
+    align-items: stretch;
+}
+.staff p {
+    padding-bottom: 8px;
+    border-bottom: 2px #ffb84d solid;
+}
+.map p {
+    text-align: center;
+    padding: 15px;
+}
+.map img {
+    width: 10%;
+    margin: 0% 0% 0% 45%;
+}
+#piatti {
+    width: 100%;
+    text-align: center;
+}
+.primi h6 {
+    font-size: 18px;
+}
+.primi {
+    padding: 25px;
+    line-height: 5px;
+}
+.secondi h6 {
+    font-size: 18px;
+}
+.secondi {
+    padding: 25px;
+    line-height: 5px;
+}
+.dolci h3 {
+    font-size: 18px;
+}
+.dolci {
+    padding: 25px;
+    line-height: 5px;
+}
+/* FOOTER */
+.contatti p {
+    margin: 0px;
+    padding: 0px;
+    color: wheat;
+}
+.contatti a {
+    color: wheat;
+    text-decoration: underline;
+}
+.contatti {
+    text-align: center;
+    border-top: 2px #ffb84d solid;
+    margin: 10px 70px 0px 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* FOOTER MENU */
+.contatti-m p {
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+.contatti-m a {
+    color: black;
+    text-decoration: underline;
+}
+.contatti-m {
+    text-align: center;
+    border-top: 2px #ffb84d solid;
+    margin: 10px 70px 0px 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
