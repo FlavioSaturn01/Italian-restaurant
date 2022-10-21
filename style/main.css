@@ -75,6 +75,10 @@ header a {
     padding-bottom: 8px;
     border-bottom: 2px #ffb84d solid;
 }
+.chef img {
+    padding-top: 8px;
+    border-top: 2px #ffb84d solid;
+}
 .food {
     display: flex;
     margin: 0% 0% 0% 50%;
@@ -84,6 +88,8 @@ header a {
 }
 .food img {
     width: 100%;
+    padding-top: 8px;
+    border-top: 2px #ffb84d solid;
 }
 .food p {
     padding-bottom: 8px;
@@ -99,6 +105,10 @@ header a {
 .staff p {
     padding-bottom: 8px;
     border-bottom: 2px #ffb84d solid;
+}
+.staff img {
+    padding-top: 8px;
+    border-top: 2px #ffb84d solid;
 }
 .map p {
     text-align: center;
